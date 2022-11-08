@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slide show</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="slide">
+      <div class="pic pic1">
+        <img
+          src="./images/WhatsApp Image 2022-10-07 at 7.29.00 PM.jpeg"
+          alt="pic1"
+        />
+      </div>
+      <div class="pic pic">
+        <img
+          src="./images/WhatsApp Image 2022-10-07 at 7.29.07 PM (1).jpeg"
+          alt="pic2"
+        />
+      </div>
+      <div class="pic pic3">
+        <img
+          src="./images/WhatsApp Image 2022-10-07 at 7.29.07 PM.jpeg"
+          alt="pic3"
+        />
+      </div>
+      <div class="pic pic4">
+        <img
+          src="./images/WhatsApp Image 2022-10-07 at 7.29.12 PM.jpeg"
+          alt="pic4"
+        />
+      </div>
+      <div class="pic pic5">
+        <img
+          src="./images/WhatsApp Image 2022-10-07 at 7.31.51 PM.jpeg"
+          alt="pic5"
+        />
+      </div>
+      <div class="pic pic6">
+        <img
+          src="./images/WhatsApp Image 2022-10-07 at 7.31.55 PM.jpeg"
+          alt="pic6"
+        />
+      </div>
+
+      <div class="icon left" onclick="changeSlides(-1)">
+        <iconify-icon
+          icon="bi:arrow-left-circle-fill"
+          width="25"
+        ></iconify-icon>
+      </div>
+
+      <div class="icon right" onclick="changeSlides(+1)">
+        <iconify-icon
+          icon="bi:arrow-right-circle-fill"
+          width="25"
+        ></iconify-icon>
+      </div>
+    </div>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
